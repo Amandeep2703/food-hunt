@@ -11,7 +11,12 @@
     width: 100%;
     height: 100%;
   }
-  
+  .logo-img{
+    border-radius: 50%;
+  }
+  .anchor-hover:hover{
+    color: white;
+  }
   section {
     min-height: 100vh;
     width: 100%;

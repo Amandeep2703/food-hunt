@@ -26,6 +26,12 @@ body{
 
     /* border: 2px solid blue; */
 }
+.logo-img{
+    border-radius: 50%;
+}
+.anchor-hover:hover{
+  color: white;
+}
 .child-right{
     width: 50%;
     height: 100%;
@@ -53,6 +59,12 @@ body{
     background-color: #41B06E;
     border-radius: 10px;
 }
+#explore:hover{
+    background-color: white;
+    color: #41B06E;
+    border: 2px solid #41B06E;
+}
+
 
 .child-right{
     padding-top: 10vh;
@@ -95,8 +107,13 @@ body{
         width: 100%;
         height: 50wv;
     }
-    .child-div{
-        font-size: 24px;
+    .child-div p{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .child-div h1{
+        font-size: 20px;
+         text-align: left;
     }
     
 }
@@ -127,6 +144,11 @@ body{
         height: 25vw;
         border-radius: 15px;
     }
+    .child-div p{
+        font-size: 16px;
+        font-weight: 500;
+     
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -143,3 +165,6 @@ body{
     padding: 2px;
     border-radius: 10px;
   }
+
+
+
