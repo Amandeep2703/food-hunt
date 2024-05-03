@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.parent-div{
+    width: 100%;
+    height: calc(100vh - 56px);
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.child-left{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding-top: 10vh;
+    padding-left: 3vw;
+    padding-right:3vw ;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+
+    /* border: 2px solid blue; */
+}
+.child-right{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.child-div{
+    /* border: 2px solid red; */
+    /* padding: 5%; */
+}
+
+.child-left-div1 h1{
+    font-size: 3vw;
+}
+.child-left-div2 p{
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+#explore{
+    text-decoration: none;
+    /* border: 1px solid gray; */
+    font-size: 1.5vw;
+    padding: 10px;
+    color: white;
+    background-color: #41B06E;
+    border-radius: 10px;
+}
+
+.child-right{
+    padding-top: 10vh;
+    padding-left: 3vw;
+    padding-right:3vw ;
+    /* border: 2px solid blue; */
+
+}
+.child-right-div1{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid brown; */
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-div{
+    width: 20vw;
+    height: 10vw;
+    /* border: 1px solid black; */
+}
+.img-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:400px) {
+
+   
+
+    .child-right-div1{
+        display: flex;
+        flex-direction: column;
+        /* background-color: wheat; */
+        flex-wrap: nowrap;
+    }
+    .img-div{
+        width: 100%;
+        height: 50wv;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+
+    .parent-div{
+        display: flex;
+       flex-direction: column;
+        
+    }
+    .child-left{
+        width: 100vw;
+        height: auto;
+        padding-bottom: 5vw;
+        padding-top: 2vw;
+    }
+    .child-right{
+        width: 100vw;
+        /* height: auto; */
+        padding-top: 0px;
+    }
+    .child-right-div1{
+        margin-top: 3vw;
+    }
+    .img-div{
+        width: 25vw;
+        height: 25vw;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .img-div {
+        width: 92vw;
+        height: 50vw;
+        border-radius: 15px;
+    }
+}
+#search-recipe-link{
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid black; */
+    padding: 2px;
+    border-radius: 10px;
+  }
