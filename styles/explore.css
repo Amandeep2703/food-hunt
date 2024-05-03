@@ -71,8 +71,11 @@
     .search-result {
       grid-template-columns: repeat(1, 1fr);
       .item h1{
-        font-size: 20vw;
+        font-size: medium;
       }
+    }
+    .item{
+      width: fit-content;
     }
   }
   @media screen and (min-width: 400px) and (max-width: 700px) {
@@ -90,12 +93,13 @@
   }
   
   .item {
-    width: 100%;
+    width: auto;
     border-radius: 8px;
     border: 1px solid lightgray;
     box-shadow: 3px 3px 3px lightgray;
-    height: auto;
+    height: 100%;
     padding: 1vw;
+    font-size: medium;
     
   }
   
